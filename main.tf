@@ -6,3 +6,7 @@ output "hex" {
   value = random_id.random.hex
 }
 
+output "test" {
+  value = "hello!"
+}
+
